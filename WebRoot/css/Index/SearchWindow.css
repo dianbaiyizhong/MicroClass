@@ -1,0 +1,223 @@
+@CHARSET "UTF-8";
+
+/*搜索窗口*/
+#SearchWindowBoss {
+	display: none;
+	position: absolute;
+	top: 60px;
+	left: 330px;
+	width: 500px;
+	height: 700px;
+	background-image: url("../../picture/Index/SearchWindow/1.png");
+}
+
+#SearchRowCount {
+	position: relative;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.HideSearchWindow {
+	position: relative;
+	width: 50px;
+	height: 31px;
+	border-radius: 0 2px 2px 0;
+	border: 1px solid #4d90fe;
+	background-color: #4d90fe;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+	color: #f3f7fc;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.HideSearchWindow:hover {
+	background: #4084f2
+}
+
+#IsSelectBlur {
+	position: relative;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#KeyWord {
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 31px;
+	line-height: 21px;
+	padding: 4px 7px;
+	color: b3b3b3;
+	border: 1px solid #999;
+	border-radius: 2px 0 0 2px;
+	background-color: #fbfbfb;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.keywordSubmit {
+	position: relative;
+	width: 50px;
+	height: 31px;
+	padding: 0 12px;
+	margin-left: -1px;
+	border-radius: 0 2px 2px 0;
+	border: 1px solid #4d90fe;
+	background-color: #4d90fe;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+	color: #f3f7fc;
+	margin-top: 20px;
+}
+
+.keywordSubmit:hover {
+	background: #4084f2
+}
+
+#SearchWindowNav {
+	border-radius: 8px;
+	background-color: #e6e6e6;
+	width: 400px;
+	height: 400px;
+	position: relative;
+	margin-left: 500px;
+	top: 70px;
+}
+
+.SearchFloor {
+	position: relative;
+	top: -291px;
+	width: 410px;
+	left: 46px;
+	min-height: 100px;
+	background-color: #e6e6e6;
+	border-radius: 8px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.SearchWorkContents {
+	font-size: 12px;
+	position: relative;
+	margin-left: 70px;
+	max-height: 50px;
+}
+
+.SearchWorkPic {
+	border-radius: 8px;
+	position: relative;
+	width: 80px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	position: relative;
+}
+
+#SplitPageInput {
+	width: 50px;
+}
+
+.span_ReCount {
+	position: relative;
+	left: 120px;
+	width: 55px;
+	height: 12px;
+	background: url("/MicroClass/picture/General/icons_home.png"), no-repeat
+		;
+	background-position: 0px -262px;
+	font-size: 10px;
+	float: left;
+	top: 30px;
+}
+
+.span_ReadCount {
+	position: relative;
+	left: 150px;
+	top: 30px;
+	width: 55px;
+	height: 12px;
+	background: url("/MicroClass/picture/General/icons_home.png"), no-repeat
+		;
+	background-position: 0px -210px;
+	font-size: 10px;
+	float: left;
+}
+
+.span_ReCount p {
+	position: relative;
+	left: 15px;
+}
+
+.span_ReadCount p {
+	position: relative;
+	left: 15px;
+}
+
+#SearchSplitPage {
+	position: absolute;
+	top: 200px;
+	left: 20px;
+}
+
+#SearchShowPage {
+	
+}
+
+#SearchSplitPage input[type="button"],input[type="submit"] {
+	width: 50px;
+	height: 31px;
+	padding: 0 12px;
+	margin-left: -1px;
+	border-radius: 0 2px 2px 0;
+	border: 1px solid #4d90fe;
+	background-color: #4d90fe;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+	color: #f3f7fc;
+	margin-top: 20px;
+}
+
+
+#SearchSplitPage input[type="submit"] {
+	width: 50px;
+	height: 31px;
+	padding: 0 12px;
+	margin-left: -1px;
+	border-radius: 0 2px 2px 0;
+	border: 1px solid #4d90fe;
+	background-color: #4d90fe;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+	color: #f3f7fc;
+	margin-top: 20px;
+}
+
+#SearchSplitPage input[type="button"]:HOVER,input[type="submit"]:HOVER {
+	background: #4084f2
+}
+
+#SearchSplitPage input[type="text"] {
+	position: relative;
+	float: left;
+	width: 50px;
+	height: 31px;
+	line-height: 21px;
+	padding: 4px 7px;
+	color: b3b3b3;
+	border: 1px solid #999;
+	border-radius: 2px 0 0 2px;
+	background-color: #fbfbfb;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+/**搜索窗口结束**/

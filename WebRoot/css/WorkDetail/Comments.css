@@ -1,0 +1,403 @@
+#CommentWindowBoss {
+	width: 100%;
+	position: relative;
+	left: 50%;
+	margin-left: -480px;
+	top: 80px;
+}
+
+#CommentWindow {
+	width: 960px;
+	position: relative;
+	top: 200px;
+}
+
+.CommentsFloorEven {
+	position: relative;
+	float: left;
+	width: 100%;
+	background-color: #e6e6e6;
+}
+
+.CommentsFloorOdd {
+	position: relative;
+	float: left;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.CommentsAuthorInfo {
+	float: left;
+	width: 200px;
+	min-height: 300px;
+}
+
+.CommentsUserHeadPicture {
+	width: 150px;
+	padding-left: 12px;
+	padding-top: 20px;
+}
+
+.LittleCommentsUserHeadPicture {
+	width: 30px;
+	float: left;
+}
+
+.CommentsUserName {
+	position: relative;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.ReplyCommentWindow {
+	position: relative;
+	width: 600px;
+	min-height: 280px;
+}
+
+.CommentContextMain {
+	width: 800px;
+	position: relative;
+	padding-left: 250px;
+}
+
+#CommentsReplyContents {
+	min-height: 50px;
+}
+
+.ReplyTimeAndReplyButton {
+	position: relative;
+	left: 500px;
+	top: 30px;
+	width: 300px;
+	height: 50px;
+}
+
+.CommentsContents {
+	min-height: 300px;
+	padding-top: 20px;
+	max-width: 500px;
+}
+
+.CommentsTime {
+	position: relative;
+	left: 300px;
+	top: -100px;
+}
+
+.ReplyCommentToFloorButton {
+	position: relative;
+	left: 700px;
+	border: 1px #028fbd solid;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #e6e6e6;
+	font-size: 14px;
+}
+
+.LittleReplyButton {
+	position: relative;
+	left: -500px;
+	border: 1px #028fbd solid;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #e6e6e6;
+	font-size: 14px;
+}
+
+.LittleReplyTime {
+	position: relative;
+	width: 200px;
+	float: left;
+	width: 200px;
+	float: left;
+	left: -200px;
+}
+
+.LittleCommentFloor {
+	position: relative;
+	left: 250px;
+	max-width: 700px;
+}
+
+#CommentsSplitPage {
+	display: none;
+	position: relative;
+	top:300px;
+	z-index: -20;
+}
+
+.LittleCommentFloor hr {
+	position: relative;
+	width: 700px;
+	color: #666;
+}
+
+.LoadCommentButtonBoss {
+	position: relative;
+	left: 50%;
+	width: 200px;
+	margin-left: -100px;
+	top: 130px;
+}
+
+.LoadCommentButton {
+	border: 1px #028fbd solid;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #e6e6e6;
+	font-size: 14px;
+	width: 200px;
+	height: 50px;
+	cursor: pointer;
+	top: 130px;
+}
+
+.HideCommentButton {
+	z-index:200;
+	display: none;
+	border: 1px #028fbd solid;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #e6e6e6;
+	font-size: 14px;
+	width: 200px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.ShowFloorCommentWindowButton {
+	position: fixed;
+	border: 1px #028fbd solid;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #e6e6e6;
+	font-size: 14px;
+	width: 200px;
+	height: 50px;
+	cursor: pointer;
+	left: 80%;
+	top: 50%;
+}
+
+.SubmitFloorCommentWindow {
+			z-index: 102;
+	
+	position: fixed;
+	display: none;
+	width: 400px;
+	height: 300px;
+	background-color: #e6e6e6;
+	border-radius: 4px;
+	display: none;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -150px;
+}
+
+.SubmitFloorCommentWindowTop {
+	position: relative;
+	width: 400px;
+	height: 60px;
+	background-color: #1b1d23;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.SubmitFloorCommentWindow span {
+	color: white;
+	font-family: "microsoft yahei";
+	position: relative;
+	padding-left: 30px;
+	top: 20px;
+	font-family: fantasy;
+}
+
+.SubmitFloorCommentWindow a {
+	color: white;
+	position: relative;
+	padding-left: 280px;
+	top: 20px;
+	font-family: fantasy;
+	cursor: pointer;
+}
+
+.SubmitFloorCommentTextarea {
+	position: relative;
+	float: left;
+	width: 350px;
+	height: 150px;
+	line-height: 21px;
+	padding: 4px 7px;
+	color: b3b3b3;
+	border: 1px solid #999;
+	border-radius: 2px 0 0 2px;
+	background-color: #fbfbfb;
+	margin-left: 23px;
+	margin-top: 20px;
+}
+
+.SubmitFloorCommentButton{
+		z-index: 102;
+	font-family: "microsoft yahei";
+	cursor: pointer;
+	position: relative;
+	top: 10px;
+	left: 50%;
+	margin-left: -40px;
+	width: 80px;
+	height: 40px;
+	border: 1px #028fbd solid;
+	-webkit-box-shadow: inset 0px 0px 1px #fff;
+	-moz-box-shadow: inset 0px 0px 1px #fff;
+	box-shadow: inset 0px 0px 1px #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-shadow: #000000;
+	background-color: #31c0f0;
+	background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#daa368),
+		to(#1cabda) );
+	background-image: -webkit-linear-gradient(top, #daa368 0%, #daa368 100%)
+		;
+	background-image: -moz-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: -ms-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: -o-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: linear-gradient(top, #31c0f0 0%, #daa368 100%);
+	font-family: "microsoft yahei";
+	
+	
+	
+	}
+
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+.CommentWindow input[type="text"] {
+	position: relative;
+	float: left;
+	width: 50px;
+	height: 31px;
+	line-height: 21px;
+	padding: 4px 7px;
+	color: b3b3b3;
+	border: 1px solid #999;
+	border-radius: 2px 0 0 2px;
+	background-color: #fbfbfb;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+.CommentWindow input[type="button"] {
+	width: 50px;
+	height: 31px;
+	padding: 0 12px;
+	margin-left: -1px;
+	border-radius: 0 2px 2px 0;
+	border: 1px solid #64493B;
+	background-color: #64493B;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+	color: #f3f7fc;
+	margin-top: -13px;
+}
+
+
+#CommentsSplitPage input[type="button"],input[type="submit"] {
+	width: 50px;
+	height: 31px;
+	padding: 0 12px;
+	margin-left: -1px;
+	border-radius: 0 2px 2px 0;
+	border: 1px solid #64493B;
+	background-color: #64493B;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+	color: #f3f7fc;
+	margin-top: 20px;
+}
+
+#CommentsSplitPage input[type="submit"] {
+	width: 50px;
+	height: 31px;
+	padding: 0 12px;
+	margin-left: 10px;
+	border-radius: 0 2px 2px 0;
+	border: 1px solid #64493B;
+	background-color: #64493B;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+	color: #f3f7fc;
+	margin-top: 20px;
+}
+
+#CommentsSplitPage input[type="button"]:HOVER,input[type="submit"]:HOVER {
+	background: #4084f2
+}
+
+#CommentsSplitPage input[type="text"] {
+	position: relative;
+	float: left;
+	width: 50px;
+	height: 31px;
+	line-height: 21px;
+	padding: 4px 7px;
+	color: b3b3b3;
+	border: 1px solid #999;
+	border-radius: 2px 0 0 2px;
+	background-color: #fbfbfb;
+	margin-left: 5px;
+	margin-top: 20px;
+}

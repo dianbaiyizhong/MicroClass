@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+
+
+
+	<filter>
+		<filter-name>enCodeFilter</filter-name>
+		<filter-class>hhm.filter.EnCodeFilter</filter-class>
+	</filter>
+		<filter>
+		<filter-name>adminFilter</filter-name>
+		<filter-class>hhm.filter.AdminFilter</filter-class>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>adminFilter</filter-name>
+		<url-pattern>/AdminFunction/*</url-pattern>
+	</filter-mapping>
+		<filter-mapping>
+		<filter-name>enCodeFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>VerifyUserLoginServlet</servlet-name>
+		<servlet-class>hhm.foreground.VerifyUserLoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>SubmitNotesServlet</servlet-name>
+		<servlet-class>hhm.user.function.SubmitNotesServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoadNotesServlet</servlet-name>
+		<servlet-class>hhm.user.function.LoadNotesServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoadCommentsServlet</servlet-name>
+		<servlet-class>hhm.foreground.LoadCommentsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoadCommentsReplyServlet</servlet-name>
+		<servlet-class>hhm.foreground.LoadCommentsReplyServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>SubmitReplyCommentServlet</servlet-name>
+		<servlet-class>hhm.user.function.SubmitReplyCommentServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoadWorkDetailServlet</servlet-name>
+		<servlet-class>hhm.foreground.LoadWorkDetailServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>CompileAndRunJavaFile</servlet-name>
+		<servlet-class>hhm.user.function.CompileAndRunJavaFile</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UploadWorkServlet</servlet-name>
+		<servlet-class>hhm.admin.function.UploadWorkServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ClickLikeForNoteServlet</servlet-name>
+		<servlet-class>hhm.user.function.ClickLikeForNoteServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>IsUserLoginServlet</servlet-name>
+		<servlet-class>hhm.general.IsUserLoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoadSearchResultByLuceneServlet</servlet-name>
+		<servlet-class>hhm.foreground.LoadSearchResultByLuceneServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserRegisterServlet</servlet-name>
+		<servlet-class>hhm.user.function.UserRegisterServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoadSearchResultByLikeServlet</servlet-name>
+		<servlet-class>hhm.foreground.LoadSearchResultByLikeServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>CollectThisWorkServlet</servlet-name>
+		<servlet-class>hhm.user.function.CollectThisWorkServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>RemoveSessionServlet</servlet-name>
+		<servlet-class>hhm.user.function.RemoveSessionServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UpdateWorksServlet</servlet-name>
+		<servlet-class>hhm.admin.function.UpdateWorksServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>DeleteUserCollectionServlet</servlet-name>
+		<servlet-class>hhm.user.function.DeleteUserCollectionServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>DeleteWorksServlet</servlet-name>
+		<servlet-class>hhm.admin.function.DeleteWorksServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyUserInfoServlet</servlet-name>
+    <servlet-class>hhm.user.function.ModifyUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoadMyNotesByWorkIDServlet</servlet-name>
+    <servlet-class>hhm.user.function.LoadMyNotesByWorkIDServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateWorksPicServlet</servlet-name>
+    <servlet-class>hhm.admin.function.UpdateWorksPicServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteBoardServlet</servlet-name>
+    <servlet-class>hhm.admin.function.DeleteBoardServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddBoardServlet</servlet-name>
+    <servlet-class>hhm.admin.function.AddBoardServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateBoardPicServlet</servlet-name>
+    <servlet-class>hhm.admin.function.UpdateBoardPicServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateBoardServlet</servlet-name>
+    <servlet-class>hhm.admin.function.UpdateBoardServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoadChapterServlet</servlet-name>
+    <servlet-class>hhm.foreground.LoadChapterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SubmitFloorCommentServlet</servlet-name>
+    <servlet-class>hhm.user.function.SubmitFloorCommentServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>VerifyUserLoginServlet</servlet-name>
+		<url-pattern>/foreground/VerifyUserLoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SubmitNotesServlet</servlet-name>
+		<url-pattern>/userFunction/SubmitNotesServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoadNotesServlet</servlet-name>
+		<url-pattern>/userFunction/LoadNotesServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoadCommentsServlet</servlet-name>
+		<url-pattern>/foreground/LoadCommentsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoadCommentsReplyServlet</servlet-name>
+		<url-pattern>/foreground/LoadCommentsReplyServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>SubmitReplyCommentServlet</servlet-name>
+		<url-pattern>/userFunction/SubmitReplyCommentServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoadWorkDetailServlet</servlet-name>
+		<url-pattern>/foreground/LoadWorkDetailServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CompileAndRunJavaFile</servlet-name>
+		<url-pattern>/userFunction/CompileAndRunJavaFile</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UploadWorkServlet</servlet-name>
+		<url-pattern>/adminFunction/UploadWorkServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ClickLikeForNoteServlet</servlet-name>
+		<url-pattern>/userFunction/ClickLikeForNoteServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>IsUserLoginServlet</servlet-name>
+		<url-pattern>/general/IsUserLoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoadSearchResultByLuceneServlet</servlet-name>
+		<url-pattern>/foreground/LoadSearchResultByLuceneServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserRegisterServlet</servlet-name>
+		<url-pattern>/userFunction/UserRegisterServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoadSearchResultByLikeServlet</servlet-name>
+		<url-pattern>/foreground/LoadSearchResultByLikeServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>CollectThisWorkServlet</servlet-name>
+		<url-pattern>/userFunction/CollectThisWorkServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RemoveSessionServlet</servlet-name>
+		<url-pattern>/userFunction/RemoveSessionServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateWorksServlet</servlet-name>
+		<url-pattern>/adminFunction/UpdateWorksServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteUserCollectionServlet</servlet-name>
+		<url-pattern>/userFunction/DeleteUserCollectionServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteWorksServlet</servlet-name>
+		<url-pattern>/adminFunction/DeleteWorksServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyUserInfoServlet</servlet-name>
+    <url-pattern>/userFunction/ModifyUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadMyNotesByWorkIDServlet</servlet-name>
+    <url-pattern>/userFunction/LoadMyNotesByWorkIDServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateWorksPicServlet</servlet-name>
+    <url-pattern>/adminFunction/UpdateWorksPicServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteBoardServlet</servlet-name>
+    <url-pattern>/adminFunction/DeleteBoardServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddBoardServlet</servlet-name>
+    <url-pattern>/adminFunction/AddBoardServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateBoardPicServlet</servlet-name>
+    <url-pattern>/adminFunction/UpdateBoardPicServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateBoardServlet</servlet-name>
+    <url-pattern>/adminFunction/UpdateBoardServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadChapterServlet</servlet-name>
+    <url-pattern>/foreground/LoadChapterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubmitFloorCommentServlet</servlet-name>
+    <url-pattern>/userFunction/SubmitFloorCommentServlet</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>/foreground/index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

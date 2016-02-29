@@ -1,0 +1,45 @@
+#ChapterAccordion {
+	position: relative;
+	width: 500px;
+	left: 400px;
+	top: 40px;
+}
+
+.ChapterIndexPicUrl {
+	width: 200px;
+}
+
+.WorkTitleBoss {
+	background-color: white;
+	width: 960px;
+	height: 90px;
+	position: relative;
+	top: -79px;
+}
+
+.WorkTitleBoss p {
+	position: relative;
+	font-size: 30px;
+	font-weight: 100;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.Introduce {
+	position: relative;
+	width: 960px;
+	height:90px;
+	background-color: white;
+	margin-top:-75px;
+}
+
+.Introduce p {
+	position: relative;
+	font-size: 10px;
+	left: 20px;
+	font-size: 15px;
+	font-weight: 50;
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 800px;
+}

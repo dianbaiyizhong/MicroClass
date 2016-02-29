@@ -1,0 +1,193 @@
+.WorkShow {
+	width: 22%;
+	float: left;
+	margin: 10px;
+	margin-top: 10px;
+	margin-right-value: 10px;
+	margin-bottom: 10px;
+	margin-left-value: 10px;
+	margin-left-ltr-source: physical;
+	margin-left-rtl-source: physical;
+	margin-right-ltr-source: physical;
+	margin-right-rtl-source: physical;
+}
+
+.WorkShowBoss {
+	margin: 10px;
+	margin-top: -10px;
+	margin-right-value: 10px;
+	margin-bottom: -10px;
+	margin-left-value: 10px;
+	margin-left-ltr-source: physical;
+	margin-left-rtl-source: physical;
+	margin-right-ltr-source: physical;
+	margin-right-rtl-source: physical;
+}
+
+.BoardShow {
+	width: 48%;
+	float: left;
+	margin: 10px;
+	margin-top: 10px;
+	margin-right-value: 10px;
+	margin-bottom: 10px;
+	margin-left-value: 10px;
+	margin-left-ltr-source: physical;
+	margin-left-rtl-source: physical;
+	margin-right-ltr-source: physical;
+	margin-right-rtl-source: physical;
+	float: left
+}
+
+.WorkShow article img {
+	width: 95%;
+	height: 135px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+.BoardShow img {
+	padding-left: 10px;
+	padding-top: 10px;
+	width: 95%;
+	height: 70%;
+}
+
+.BoardShowBoss {
+	width: 100%;
+	height: 515px;
+	padding-top: 0px;
+}
+
+.BoardShow article {
+	width: 100%;
+	margin: 0 auto;
+	background: #ffffff;
+	border-bottom: 2px solid #999;
+}
+
+.BoardShow h2 {
+	font-size: 14px;
+	padding: 20px 0px;
+}
+
+.WorkShow article {
+	width: 100%;
+	margin: 0 auto;
+	background: #ffffff;
+	border-bottom: 2px solid #999;
+}
+
+.WorkShow h2 {
+	font-size: 14px;
+	padding: 20px 0px;
+}
+
+#content {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #e6e6e6;
+}
+
+.Work_ReCount {
+	position: relative;
+	top: -20px;
+	left: 30px;
+	width: 55px;
+	height: 12px;
+	background: url("/MicroClass/picture/General/icons_home.png"), no-repeat;
+	background-position: 0px -262px;
+	font-size: 10px;
+	float: left;
+}
+
+.Work_ReCount p {
+	position: relative;
+	left: 15px;
+}
+
+.Work_ReadCount p {
+	position: relative;
+	left: 15px;
+}
+
+.Work_ReadCount {
+	position: relative;
+	left: 60px;
+	top: -20px;
+	width: 55px;
+	height: 12px;
+	background: url("/MicroClass/picture/General/icons_home.png"), no-repeat;
+	background-position: 0px -210px;
+	font-size: 10px;
+	float: left;
+}
+
+.Board_ReCount p {
+	position: relative;
+	left: 15px;
+}
+
+.Board_ReadCount p {
+	position: relative;
+	left: 15px;
+}
+
+.Board_ReCount {
+	position: relative;
+	top: -20px;
+	left: 30px;
+	width: 55px;
+	height: 12px;
+	background: url("/MicroClass/picture/General/icons_home.png"), no-repeat;
+	background-position: 0px -262px;
+	font-size: 10px;
+	float: left;
+}
+
+.Board_ReadCount {
+	position: relative;
+	left: 60px;
+	top: -20px;
+	width: 55px;
+	height: 12px;
+	background: url("/MicroClass/picture/General/icons_home.png"), no-repeat;
+	background-position: 0px -210px;
+	font-size: 10px;
+	float: left;
+}
+
+.Boardh2 {
+	position: relative;
+	left: 30px;
+}
+
+#foot {
+	position: relative;
+	width: 960px;
+	height: 150px;
+	width: 960px;
+	height: 150px;
+	background-color: #333;
+}
+
+#foot span {
+	top: auto;
+	top: 20px;
+	margin-top: -100px;
+	position: relative;
+	width: 200px;
+	color: white;
+	left: 50%;
+	margin-left: -100px;
+	position: relative;
+}
+
+.span2 {
+	top: 20px;
+	color: white;
+	margin-left: -200px;
+	position: relative;
+	width: 400px;
+	left: 50%;
+}

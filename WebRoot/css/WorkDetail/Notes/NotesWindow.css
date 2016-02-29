@@ -1,0 +1,186 @@
+#NotesBoss {
+	width: 300px;
+	left: 650px;
+	float: left;
+	margin-top: -85px;
+	height: 700px;
+}
+
+.NotesFloor {
+	position: relative;
+	min-height: 20px;
+}
+
+.NotesFloor hr {
+	position: relative;
+	left: 20px;
+	width: 80%;
+	color: #987cb9;
+}
+
+#NotesWindowBoss {
+	width: 300px;
+	display: none;
+	position: relative;
+	border-radius: 4px;
+	background-color: white;
+	left: 51px;
+	top: 40px;
+	display: none;
+	height: 650px;
+}
+
+.NotesUserHeadPicture {
+	height: 30px;
+	border-radius: 10px;;
+	position: relative;
+	left: 190px;
+	top: -20px;
+	border-radius: 10px;
+}
+
+.ClickLikeForNoteButton {
+	text-decoration: underline;
+	cursor: pointer;
+	position: relative;
+	left: 85px;
+	float: left;
+	top: 20px;
+	z-index: 2;
+}
+
+#NotesSplitPage {
+	background-color: #B9AB99;
+	height: 50px;
+	color: #333;
+	position: relative;
+	top: 30px;
+}
+
+#NotesSplitPage span {
+	position: relative;
+	top: -20px;
+}
+
+.NotesTime {
+	position: relative;
+	float: left;
+	text-align: center;
+	width: 48px;
+	height: 18px;
+	background: url("../../../picture/WorkDetail/Notes/NoteTimeBG.png");
+	float: left;
+}
+
+.NotesTime:HOVER {
+	background:
+		url("../../../picture/WorkDetail/Notes/NoteTimeBG_Press.png");
+	width: 48px;
+	height: 18px;
+	color: white;
+}
+
+.ClickLikeForNote {
+	
+}
+
+.LikeCount {
+	position: relative;
+	left: 85px;
+	top: 20px;
+}
+
+.SubmitNoteWindow {
+	background-color: #B9AB99;
+	height: 50px;
+	width: 300px;
+	color: #333;
+}
+
+.SubmitNoteWindow input[type="text"] {
+	position: relative;
+	float: left;
+	width: 120px;
+	height: 31px;
+	line-height: 21px;
+	padding: 4px 7px;
+	color: b3b3b3;
+	border: 1px solid #999;
+	border-radius: 2px 0 0 2px;
+	background-color: #fbfbfb;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+.SubmitNoteWindow input[type="button"] {
+	width: 60px;
+	height: 31px;
+	padding: 0 12px;
+	margin-left: -1px;
+	border-radius: 0 2px 2px 0;
+	border: 1px solid #64493B;
+	background-color: #64493B;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+	color: #f3f7fc;
+	margin-top: -13px;
+}
+
+.SubmitNoteWindow input[type="checkbox"] {
+	position: relative;
+	margin-left: 10px;
+	margin-top: 27px;
+}
+
+#NotesSplitPage input[type="button"],input[type="submit"] {
+	width: 40px;
+	height: 31px;
+	padding: 0 12px;
+	margin-left: -1px;
+	border-radius: 0 2px 2px 0;
+	border: 1px solid #64493B;
+	background-color: #64493B;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+	color: #f3f7fc;
+	margin-top: 20px;
+}
+
+#NotesSplitPage input[type="submit"] {
+	width: 40px;
+	height: 31px;
+	padding: 0 12px;
+	margin-left: 10px;
+	border-radius: 0 2px 2px 0;
+	border: 1px solid #64493B;
+	background-color: #64493B;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+	color: #f3f7fc;
+	margin-top: 20px;
+}
+
+#NotesSplitPage input[type="button"]:HOVER,input[type="submit"]:HOVER {
+	background: #4084f2
+}
+
+#NotesSplitPage input[type="text"] {
+	position: relative;
+	float: left;
+	width: 40px;
+	height: 31px;
+	line-height: 21px;
+	padding: 4px 7px;
+	color: b3b3b3;
+	border: 1px solid #999;
+	border-radius: 2px 0 0 2px;
+	background-color: #fbfbfb;
+	margin-left: 5px;
+	margin-top: 20px;
+}

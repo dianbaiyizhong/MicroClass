@@ -1,0 +1,107 @@
+html,body{
+	text-align:center;
+	over-flow:hidden;
+	color: #333333;
+}
+ul{list-style-type:none; margin:0px;}
+.headtop .listpic table {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #0080FF;
+	border-right-color: #0080FF;
+	border-bottom-color: #0080FF;
+	border-left-color: #0080FF;
+	border-bottom-width: 1px;
+}
+
+* {font-size:9pt;font-family:SimSun}
+
+input{color:#666666;font:normal 12px Tahoma;background-color:#ffffff;}
+
+.headtop {
+	height: 200px;
+	vertical-align: middle;
+	padding: 3px;
+	border: 1px solid #0080FF;
+	margin: 0px;
+}
+.headtoptitle {
+	height: 25px;
+	background-image: url(../images/add_pic_nav.gif);
+	font-family: "宋体";
+	font-size: 10pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 25px;
+}
+.uploadpic {
+	font-family: "宋体";
+	font-size: 10pt;
+	color: #000000;
+	margin: 3px;
+	padding: 3px;
+	height: 130px;
+}
+
+.listpic {
+	height: 44px;
+	list-style-type: none;
+}
+.listpicleft {
+	font-family: "宋体";
+	font-size: 10pt;
+	background-color: #C8E3FF;
+	height: 25px;
+	line-height: 25px;
+}
+.listpicright {
+	font-family: "宋体";
+	font-size: 10pt;
+	background-color: #D7EBFF;
+}
+.imgInfo {
+	height: 25px;
+	background-color: #C8E3FF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #0080FF;
+	border-right-color: #0080FF;
+	border-bottom-color: #0080FF;
+	border-left-color: #0080FF;
+}
+#dl_border
+{
+	border: 1px solid #CEE7FF;
+}
+#admintitlecolumn
+{
+	background-color: #CEE7FF;
+	font-family: "宋体";
+	font-size: 11pt;
+	font-weight: bold;
+	color: #0053A6;
+}
+#resPreImgDefault
+{
+	background-image: url(../images/comingsoon_books._V45727926_.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-left: 4px;
+}
+.radio
+{
+	BACKGROUND-COLOR: #ECF5FF;
+	HEIGHT: 18px;
+	font-size: 9pt;
+}

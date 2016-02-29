@@ -1,0 +1,233 @@
+.LoginWindowTop,.RegisterWindowTop {
+	position: relative;
+	width: 400px;
+	height: 60px;
+	background-color: #1b1d23;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.LoginWindowTop span {
+	color: white;
+	font-family: "microsoft yahei";
+	position: relative;
+	padding-left: 30px;
+	top: 20px;
+	font-family: fantasy;
+}
+
+.LoginWindowTop a {
+	color: white;
+	position: relative;
+	padding-left: 280px;
+	top: 20px;
+	font-family: fantasy;
+	cursor: pointer;
+}
+
+.LoginWindow {
+	width: 400px;
+	height: 300px;
+	background-color: #e6e6e6;
+	border-radius: 4px;
+	display: none;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	margin-left: -200px;
+	margin-top: -150px;
+}
+
+.UserNameInput {
+	position: relative;
+	left: 50%;
+	top: 20%;
+	margin-left: -150px;
+	margin-top: -20px;
+	width: 300px;
+	height: 48px;
+	background: url("../../picture/Index/LoginWindow/UserNameInput.png");
+	background-size: 300px 48px;
+	background-color: transparent;
+}
+
+.UserNameInput input {
+	position: relative;
+	left: 50px;
+	top: 4px;
+	width: 230px;
+	height: 40px;
+	background-color: #e6e6e6;
+}
+
+.PasswordInput {
+	position: relative;
+	left: 50%;
+	top: 20%;
+	margin-left: -150px;
+	margin-top: 10px;
+	width: 300px;
+	height: 48px;
+	background: url("../../picture/Index/LoginWindow/PassWordInput.png");
+	background-size: 300px 48px;
+}
+
+.PasswordInput input {
+	position: relative;
+	left: 50px;
+	top: 4px;
+	width: 230px;
+	height: 40px;
+	background-color: #e6e6e6;
+}
+
+
+#LoginButton {
+	z-index: 102;
+	font-family: "microsoft yahei";
+	cursor: pointer;
+	position: relative;
+	top: 90px;
+	left: 35%;
+	margin-left: -40px;
+	width: 80px;
+	height: 40px;
+	border: 1px #028fbd solid;
+	-webkit-box-shadow: inset 0px 0px 1px #fff;
+	-moz-box-shadow: inset 0px 0px 1px #fff;
+	box-shadow: inset 0px 0px 1px #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-shadow: #000000;
+	background-color: #31c0f0;
+	background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#daa368),
+		to(#1cabda) );
+	background-image: -webkit-linear-gradient(top, #daa368 0%, #daa368 100%)
+		;
+	background-image: -moz-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: -ms-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: -o-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: linear-gradient(top, #31c0f0 0%, #daa368 100%);
+	font-family: "microsoft yahei";
+}
+
+#RegisterButton {
+	font-family: "microsoft yahei";
+	cursor: pointer;
+	position: relative;
+	top: 90px;
+	left: 55%;
+	margin-left: -40px;
+	width: 80px;
+	height: 40px;
+	border: 1px #028fbd solid;
+	-webkit-box-shadow: inset 0px 0px 1px #fff;
+	-moz-box-shadow: inset 0px 0px 1px #fff;
+	box-shadow: inset 0px 0px 1px #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-shadow: #000000;
+	background-color: #31c0f0;
+	background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#daa368),
+		to(#1cabda) );
+	background-image: -webkit-linear-gradient(top, #daa368 0%, #daa368 100%)
+		;
+	background-image: -moz-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: -ms-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: -o-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: linear-gradient(top, #31c0f0 0%, #daa368 100%);
+}
+
+.RegisterWindow {
+	width: 400px;
+	height: 500px;
+	background-color: #e6e6e6;
+	border-radius: 4px;
+	display: none;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	margin-left: -200px;
+	margin-top: -150px;
+}
+
+.RegisterWindow .UserNameInput {
+	position: relative;
+	top: 100px;
+}
+
+.RegisterWindow .PassWordInput {
+	position: relative;
+	top: 100px;
+}
+
+.RegisterWindow .PassWordInput {
+	position: relative;
+	top: 100px;
+}
+
+#RegisterCheckButton {
+	position: relative;
+	font-family: "microsoft yahei";
+	cursor: pointer;
+	top: 190px;
+	left: 50%;
+	margin-left: -40px;
+	width: 80px;
+	height: 40px;
+	border: 1px #028fbd solid;
+	-webkit-box-shadow: inset 0px 0px 1px #fff;
+	-moz-box-shadow: inset 0px 0px 1px #fff;
+	box-shadow: inset 0px 0px 1px #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-shadow: #000000;
+	background-color: #31c0f0;
+	background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#daa368),
+		to(#1cabda) );
+	background-image: -webkit-linear-gradient(top, #daa368 0%, #daa368 100%)
+		;
+	background-image: -moz-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: -ms-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: -o-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: linear-gradient(top, #31c0f0 0%, #daa368 100%);
+}
+
+#VerifyIsUserExistButton {
+	position: relative;
+	font-family: "microsoft yahei";
+	cursor: pointer;
+	top: 120px;
+	left: 50%;
+	margin-left: -90px;
+	width: 180px;
+	height: 40px;
+	border: 1px #028fbd solid;
+	-webkit-box-shadow: inset 0px 0px 1px #fff;
+	-moz-box-shadow: inset 0px 0px 1px #fff;
+	box-shadow: inset 0px 0px 1px #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-shadow: #000000;
+	background-color: #31c0f0;
+	background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#daa368),
+		to(#1cabda) );
+	background-image: -webkit-linear-gradient(top, #daa368 0%, #daa368 100%)
+		;
+	background-image: -moz-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: -ms-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: -o-linear-gradient(top, #daa368 0%, #daa368 100%);
+	background-image: linear-gradient(top, #31c0f0 0%, #daa368 100%);
+}
+
+/**CompileWindow´°¿Ú**/
+.CompileWindow {
+	width: auto;
+	height: 480px;
+	position: fixed;
+	top: 50%;
+	margin-top: -240px;
+}

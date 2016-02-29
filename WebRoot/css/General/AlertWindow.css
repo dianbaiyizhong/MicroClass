@@ -1,0 +1,24 @@
+#AlertWindow {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px;
+	margin-top: -157px;
+	width: 500px;
+	height: 314px;
+	/**
+	background-image: url("/CDSCP/picture/General/AlertWindowBG.png");
+	**/
+	display: none;
+	color: black;
+	background-color: #666;
+	border-radius:4px;
+}
+
+#AlertWindowContent {
+	font-size: 30px;
+	position: relative;
+	padding-top: 20px;
+	width: 150px;
+	height: 100px;
+}

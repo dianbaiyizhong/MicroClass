@@ -1,0 +1,56 @@
+
+
+.NotesNavigationBoss {
+	float: left;
+	font-size: 12px;
+	width: 300px;
+	margin: 10px auto 0;
+	border: #E6E6E6 solid 1px;
+	height: 40px;
+	position: relative;
+	left: 50px;
+}
+
+#NotesNavigationAll {
+	width: 300px;
+	height: 42px;
+	float: left;
+	position: relative;
+	background-color: #68351A;
+	z-index: 1;
+}
+
+
+
+
+#NotesNavigationAll li {
+	text-align: center;
+	float: left;
+	position: relative;
+	left: 21px;
+	
+}
+
+#NotesNavigationAll li a {
+	background: center 33px no-repeat;
+	color: #AA8977;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 0 11px 0 12px;
+	_padding: 0 8px;
+	height: 42px;
+	line-height: 42px;
+	white-space: nowrap;
+}
+
+#NotesNavigationAll li A:HOVER {
+	background: url("/MicroClass/picture/WorkDetail/Notes/bird.png") center
+		33px no-repeat;
+	height: 38px;
+	line-height: 38px;
+	border-top: 4px solid #639ACA;
+	overflow: hidden;
+	
+}
